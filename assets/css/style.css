@@ -5669,3 +5669,8 @@ input[type=radio]:checked~label::before{
 {
 	color:#3e4095;
 }
+.foot-p
+{
+	text-align: justify;
+  //text-justify: inter-word;
+}
