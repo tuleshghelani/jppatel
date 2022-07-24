@@ -888,7 +888,7 @@ input[type=radio]:checked~label::before{
     padding-bottom:50px
 }
 .tm-padding-section{
-    padding-top:100px;
+    padding-top:200px;
     padding-bottom:100px
 }
 .tm-padding-section-top{
@@ -5111,6 +5111,12 @@ input[type=radio]:checked~label::before{
 .tm-prodetails-review .tm-rating{
     line-height:1;
     vertical-align:middle
+}
+
+
+.module-display {
+    width: 120px; 
+    padding: 10px;
 }
 @media only screen and (max-width:1199px){
     .tm-prodetails-thumbnails .tm-slider-arrows-next,.tm-prodetails-thumbnails .tm-slider-arrows-prev{
