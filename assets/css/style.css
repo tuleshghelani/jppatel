@@ -5678,5 +5678,22 @@ input[type=radio]:checked~label::before{
 .foot-p
 {
 	text-align: justify;
-  //text-justify: inter-word;
+    --text-justify: inter-word;
 }
+
+/*
+.container-image {
+    width: 250px;
+    height: 250px;
+}
+
+// Resize images 
+.container-image img {
+    width: 100%;
+    height: auto;
+}
+
+.container-image-small {
+    width: 40%;
+    --height: 150px;
+}*/
