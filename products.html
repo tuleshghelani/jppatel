@@ -24,6 +24,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+    <!--
+        Image loading
+    -->
+
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      
+    <!--
+        Image loading
+    -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -33,7 +45,7 @@
 <body>
    <!-- Preloader -->
    <div class="tm-preloader">
-    <div class="container">
+    <!-- <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="tm-preloader-logo">
@@ -42,7 +54,7 @@
                 <span class="tm-preloader-progress"></span>
             </div>
         </div>
-    </div>
+    </div> -->
     <button class="tm-button tm-button-small">Cancel Preloader</button>
 </div>
 <!--// Preloader -->
@@ -160,7 +172,15 @@
             </div>
         </div>
         <!--// Breadcrumb Area -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            Launch demo modal
+        </button>
 
+        <button type="button" class="btn btn-primary btn-lg" onclick="myFunction()">
+            Launch demo modal 11
+        </button>
+  
         <!-- Page Content -->
         <main class="page-content">
             <!-- Products Wrapper -->
@@ -1135,15 +1155,150 @@
                 </div>
             </div>
         </div> -->
+        
         <button id="back-top-top"><i class="ion-arrow-up-c"></i></button>
     </div>
     <!--// Wrapper -->
 
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg"  id="myModal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog  modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        </div>
+        <div class="modal-body">
+          <img src=""
+               data-original-src="images/kayda_and_aatavet/B06.jpg"
+               alt="">
+               <!-- Product Details -->
+               <div class="tm-prodetails">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-12">
+                        <div class="tab-content">
+                            <div id="menu801" class="tab-pane fade in active container-image">
+                                <img src="images\god_pendal\A (2).jpg" alt="product image" />
+                            </div>
+                            <div id="menu802" class="tab-pane fade container-image">
+                                <img src="images\god_pendal\A (3).jpg" alt="product image" />
+                            </div>
+                            <div id="menu803" class="tab-pane fade container-image">
+                                <img src="images\god_pendal\A (4).jpg" alt="product image" />
+                            </div>
+                            <div id="menu804" class="tab-pane fade  container-image">
+                                <img src="images\god_pendal\A (5).jpg" alt="product image" />
+                            </div>
+                            <div id="menu805" class="tab-pane fade container-image">
+                                <img src="images\god_pendal\A (6).jpg" alt="product image" />
+                            </div>
+                            <div id="menu806" class="tab-pane fade container-image">
+                                <img src="images\god_pendal\A (13).jpg" alt="product image" />
+                            </div>
+                            <div id="menu807" class="tab-pane fade  container-image">
+                                <img src="images\god_pendal\A (14).jpg" alt="product image" />
+                            </div>
+                            <div id="menu808" class="tab-pane fade container-image">
+                                <img src="images\god_pendal\A (15).jpg" alt="product image" />
+                            </div>
+                            <div id="menu809" class="tab-pane fade  container-image">
+                                <img src="images\god_pendal\A (16).jpg" alt="product image" />
+                            </div>
+                            <div id="menu810" class="tab-pane fade container-image">
+                                <img src="images\god_pendal\A (17).jpg" alt="product image" />
+                            </div>
+                            <div id="menu811" class="tab-pane fade container-image">
+                                <img src="images\god_pendal\A (18).jpg" alt="product image" />
+                            </div>
+                            <div id="menu812" class="tab-pane fade  container-image">
+                                <img src="images\god_pendal\A (19).jpg" alt="product image" />
+                            </div>
+                            <div id="menu813" class="tab-pane fade container-image">
+                                <img src="images\god_pendal\A (20).jpg" alt="product image" />
+                            </div>
+                            <div id="menu814" class="tab-pane fade  container-image">
+                                <img src="images\god_pendal\A (21).jpg" alt="product image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="tm-prodetails-content">
+                            <h4 class="tm-prodetails-title">Ferva</h4>
+                            <ul class="nav nav-tabs ">
+                                <li class="active  container-image-small"><a data-toggle="tab" href="#menu801"><img
+                                            class="module-display" src="images/kayda_and_aatavet/B06.jpg" data-original-src="images/kayda_and_aatavet/B06.jpg"
+                                            alt="product image" /></a></li>
+                                <li class="container-image-small"><a data-toggle="tab" href="#menu802"><img class="module-display" data-original-src="images/kayda_and_aatavet/G2.jpg"
+                                            src=""
+                                            alt="product image" /></a></li>
+                                <li class="container-image-small"><a data-toggle="tab" href="#menu803"><img class="module-display"
+                                            src="images\god_pendal\A (4).jpg"
+                                            alt="product image" /></a></li>
+                                <li class="container-image-small"><a data-toggle="tab" href="#menu804"><img
+                                    class="module-display" src="images\god_pendal\A (5).jpg"
+                                    alt="product image" /></a></li>
+                                <li class="container-image-small"><a data-toggle="tab" href="#menu805"><img  class="module-display"
+                                    src="images\god_pendal\A (6).jpg"
+                                    alt="product image" /></a></li>
+                                <li class="container-image-small"><a data-toggle="tab" href="#menu806"><img     class="module-display"
+                                            src="images\god_pendal\A (13).jpg"
+                                            alt="product image" /></a></li>        
+                                <li class="container-image-small"><a data-toggle="tab" href="#menu807"><img class="module-display"
+                                                src="images\god_pendal\A (14).jpg"
+                                                alt="product image" /></a></li>
+                                <li class="container-image-small"><a data-toggle="tab" href="#menu808"><img class="module-display"
+                                                src="images\god_pendal\A (15).jpg"
+                                                alt="product image" /></a></li>         
+                                <li class="container-image-small"><a data-toggle="tab" href="#menu809"><img     class="module-display"
+                                                src="images\god_pendal\A (16).jpg"
+                                                alt="product image" /></a></li>        
+                                <li class="container-image-small"><a data-toggle="tab" href="#menu810"><img class="module-display"
+                                                src="images\god_pendal\A (17).jpg"
+                                                alt="product image" /></a></li>
+                                <li class="container-image-small"><a data-toggle="tab" href="#menu811"><img class="module-display"
+                                                src="images\god_pendal\A (18).jpg"
+                                                alt="product image" /></a></li>       
+                                <li class="container-image-small"><a data-toggle="tab" href="#menu812"><img     class="module-display"
+                                            src="images\god_pendal\A (19).jpg"
+                                            alt="product image" /></a></li>        
+                                <li class="container-image-small"><a data-toggle="tab" href="#menu813"><img class="module-display"
+                                                src="images\god_pendal\A (20).jpg"
+                                                alt="product image" /></a></li>
+                                <li class="container-image-small"><a data-toggle="tab" href="#menu814"><img class="module-display"
+                                                src="images\god_pendal\A (21).jpg"
+                                                alt="product image" /></a></li>                            
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--// Product Details -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+    
+    
     <!-- JS FILES HERE -->
     <!-- inject:js -->
     <script src="assets/js/vendors/plugins.min.js"></script>
     <script src="assets/js/main.js"></script>
     <!-- endinject -->
+     
+  <script>
+    // $('.modal').on('shown.bs.modal', function () {
+    //    src = $(this).find('img').attr('src');
+    //    $(this).find('img').attr('src', src);
+    //  })
+    </script>
+
 </body>
 
 <!-- Mirrored from thememarch.com/demo/html/surose/surose/products-4-column.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Sep 2021 03:43:01 GMT -->
